@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 24px;
+  }
+  body {
+    font-family: "Inter", sans-serif;
+    background-color: #d9d9d9;
+  }
+  h1 {
+    color: white;
+    padding: 20px;
+    background-color: black;
+  }
+  #search-form {
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+  }
+  #search-form > input {
+    flex-grow: 1;
+    padding: 25px;
+  }
+  #search-form > button {
+    width: 200px;
+    background-color: black;
+    color: white;
+  }
+  .button-container {
+    display: flex;
+    padding: 0px 30px;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .button-container > button {
+    width: 250px;
+    height: 65px;
+    background-color: black;
+    color: white;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    height: 65px;
+  }
+  td {
+    text-align: center;
+  }
+  table {
+    width: 100%;
+  }
+  .student-container {
+    padding: 30px;
+  }
+  .name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .name > img {
+    border: 1px solid #000000;
+    border-radius: 100px;
+  }

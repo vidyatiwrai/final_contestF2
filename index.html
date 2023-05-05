@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1>Student Portal</h1>
+      <form id="search-form">
+        <input type="text" placeholder="Search" name="search" />
+        <button>Search</button>
+      </form>
+      <div class="button-container">
+        <button id="az_sort_btn">Sort A->Z</button
+        ><button id="za_sort_btn">Sort Z->A</button
+        ><button id="sort_marks_btn">Sort By Marks</button
+        ><button id="pass_btn">Sort By Passing</button
+        ><button id="sort_class_btn">Sort By Class</button
+        ><button id="sort_gender_btn">Sort By Gender</button>
+      </div>
+      <div class="student-container">
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th style="width: 25%">Name</th>
+              <th>Gender</th>
+              <th>Class</th>
+              <th>Marks</th>
+              <th>Passing</th>
+              <th style="width: 20%">Email</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
